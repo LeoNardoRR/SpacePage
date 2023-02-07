@@ -1,0 +1,148 @@
+body {
+	background: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#circulo {
+	width: 1100px;
+	height: 1100px;
+	top: -200px;
+	left:-300px;
+	position: absolute;
+	background-image: linear-gradient(90deg, skyblue, blue, darkblue, black);
+	margin: 50px;
+	border-radius: 50%;
+}
+
+#img1 {
+	width: 700px;
+	height: 700px;	
+	position: absolute;
+	top: 230px;
+	right: 200px;
+}
+
+#nome {
+	border: none;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+#email {
+	border: none;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+#telefone {
+	border: none;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	font-weight: bold;
+}
+
+.corpo {
+	border-radius: 10px;
+	border-width: 1px;
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	right: 90px;
+	top: 20px;
+	background: black;
+	color: white;
+	opacity: 70%;
+}
+
+.caixa {
+	border-radius: 10px;
+	border-width: 1px;
+	padding: 20px;
+	width: 250px;
+	position: relative;
+	left: 900px;
+	top: -90px;
+	font-weight: bold;
+	color: white;
+
+}
+
+form {
+	margin: 130px 0;
+	background: darkred;
+}
+
+form label{
+	display:block;
+	font-size: 16px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 200px;
+
+}
+
+.contato {
+	position: relative;
+	left: 900px;
+	top: -85px;
+	color: white;
+	font-weight: bold;
+	padding: 20px;
+	width: 250px;
+	border-radius: 5px;
+	border-width: 1px;
+}
+
+.checkbox {
+	margin: 20px 0;
+	position: relative;
+	left: 900px;
+	top: -79px;
+	font-weight: bold;
+	width: 250px;
+	color: white;
+
+}
+
+.enviar {
+	width:8%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	position: relative;
+	left: 900px;
+	top: -80px;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+footer {
+	text-align: center;
+	background: url("black.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
