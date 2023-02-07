@@ -1,151 +1,22 @@
 body {
 	background-image: url(img/rocket.jpg);
 	background-repeat: no-repeat;
-	font-family: 'Montserrat', sans-serif;
 }
 
-nav {
-	position: absolute;
-	top: auto;
-	right: auto;
-	width: 1282px;
-	padding: 40px;
-	background:linear-gradient(black,rgb(26, 26, 26), transparent);
-}
-
-nav li {
-	display: inline;
-	margin: 0 0 0 15px;
-
-}
-
-nav a {
-	color: rgb(253, 253, 253);
-	font-weight: bold;
-	text-transform: uppercase; 
-	font-size: 25px;
-	text-decoration: none;
-	transition: 1s all;
-	cursor: pointer;
-	padding: 10px;
-	right: 200px;
-	float: right;
-}
-
-nav a:hover {
-	color: rgb(245, 245, 245);
-	transform: scale(1.2);
-}
-
-.plan1 {
-	width: 100%;
-}
-p {
-	top: 200px;
+#pills-tab{
 	font-size: 20px;
-	position: absolute;
-	font-weight: bold;
-	top: 320px;
-	text-align: center;
-	color:white
-}
-a {
-	font-size: 14px;
-	font-weight: lighter;
-}
-.space {
-	position: absolute;
-	width: 300px;
-}
-.shadowed{
-	position: absolute;
-	color: white;
-	top: 450px;
-	left: 50px;
-	font-size:40px;
-	font-weight: bold;
-}
-.shadowed1
-{
-	position: absolute;
-	color: white;
-	top: 500px;
-	left: 50px;
-	font-size:30px;
-	font-weight: bold;
-}
-
-.bottom {
-	width:8%;
-	padding: 14px;
-	background: orange;
-	color: white;
-	font-weight: bold;
-	font-size: 14px;
-	border: none;
-	border-radius: 5px;
-	transition: 1s all;
-	cursor: pointer;
-	position: relative;
-	left: 50px;
-	top: 560px;
-	font-weight: bold;
-}
-
-.bottom:hover {
-	background: darkorange;
-	transform: scale(1.2);
-}
-
-.title2 {
-	position: relative;
-	top: 690px;
-	text-transform: uppercase; 
-	font-size: 30px;
-}
-
-.nasa {
-	position: absolute;
-	top: 850px;
-	left: 200px;
-	height: 150px;
-	transition: 1s all;
-	cursor: pointer;
-}
-
-.space {
-	position: absolute;
-	top: 850px;
-	left: 480px;
-	height: 150px;
-	transition: 1s all;
-	cursor: pointer;
-}
-
-.pock {
-	position: absolute;
-	top: 850px;
-	left: 880px;
-	height: 150px;
-	transition: 1s all;
-	cursor: pointer;
-}
-
-.img1 {
-	position: absolute;
-	top: auto;
-	left: auto;
-	height: auto;
-	transition: 1s all;
-	cursor: pointer;
-}
-
-.title3 {
-	position: absolute;
-	top: 690px;
-	left: 410px;
 	color: rgb(255, 255, 255);
-	text-transform: uppercase; 
-	font-size: 15px;
+	font-family: 'Bebas Neue', cursive;
 }
 
+.button{
+	color: white;
+	background-color: black;
+	border: 2px solid;
+	border-radius: 4px;
+	border-color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	width: 120px;
+	height: 80px;
+}
