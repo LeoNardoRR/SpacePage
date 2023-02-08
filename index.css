@@ -5,10 +5,8 @@ body {
 
 #pills-tab{
 	font-size: 20px;
-	color: rgb(255, 255, 255);
 	font-family: 'Bebas Neue', cursive;
 	margin-left: 1%;
-
 }
 
 .button{
@@ -61,8 +59,8 @@ div{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-left: 55%;
-	margin-top: 15%;
+	margin-left: 50%;
+	margin-top: 17%;
   }
   
   .text2 {

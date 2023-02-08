@@ -1,45 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Universe</title>
-		<link rel="stylesheet" type="text/css" href="reset.css">
-		<link rel="stylesheet" type="text/css" href="universe.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <title>Tela Login</title>
 </head>
-		<link rel="icon" type="imagem/png" href="C:\Users\ribei\OneDrive\Área de Trabalho\Geral\Programação\Projeto pessoal\icon.ico" />
-	<body>
-			<main>
-				<form>
-						<fieldset class="caixa">
-							<label for="nome">Name</label>
-							<input type="text" id="nome" class="input-padrao" required placeholder="Full name">
 
-							<label for="email">Email</label>
-							<input type="email" id="email" class="input-padrao" required placeholder="YOUR-EMAIL@domain.com">
+<body>
+  <div class="card">
+    <section class="form-section" id="sign-in">
+      <h1 class="title">Entrar</h1>
+      <div class="social">
+        <div class="social-container">
+          <iconify-icon icon="ri:facebook-fill"></iconify-icon>
+        </div>
+        <div class="social-container">
+          <iconify-icon icon="mdi:google-plus"></iconify-icon>
+        </div>
+        <div class="social-container">
+          <iconify-icon icon="ri:linkedin-fill"></iconify-icon>
+        </div>
+      </div>
+      <div class="form">
+        <span class="subtitle">ou use a sua conta</span>
+        <input class="form-field" type="text" placeholder="Email">
+        <input class="form-field" type="password" placeholder="Senha">
+        <div class="actions">
+          <span class="forgot-password">Esqueceu a senha?</span>
+          <button class="form-btn">
+            entrar
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="form-section" id="sign-up">
+      <h1 class="title">Criar Conta</h1>
+      <div class="social">
+        <div class="social-container">
+          <iconify-icon icon="ri:facebook-fill"></iconify-icon>
+        </div>
+        <div class="social-container">
+          <iconify-icon icon="mdi:google-plus"></iconify-icon>
+        </div>
+        <div class="social-container">
+          <iconify-icon icon="ri:linkedin-fill"></iconify-icon>
+        </div>
+      </div>
+      <div class="form">
+        <span class="subtitle">ou utilize o seu email</span>
+        <input class="form-field" type="text" placeholder="Nome">
+        <input class="form-field" type="text" placeholder="Email">
+        <input class="form-field" type="password" placeholder="Senha">
+        <div class="actions">
+          <button class="form-btn">
+            criar conta
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="call" id="sign-in-call">
+      <h1 class="title">Bem-vindo de volta!</h1>
+      <span class="subtitle">Se mantenha conectado fazendo login <br> com as suas informações!</span>
+      <button class="call-btn" id="sign-in-call-btn">já tenho conta</button>
+    </section>
+    <section class="call hide" id="sign-up-call">
+      <h1 class="title">Olá, amigo(a)!</h1>
+      <span class="subtitle">Insira algumas informações e comece <br> a sua jornada conosco!</span>
+      <button class="call-btn" id="sign-up-call-btn">quero criar uma conta</button>
+    </section>
+    <div id="cover"></div>
+  </div>
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  <script src="contact.js"></script>
+</body>
 
-							<label for="telefone">Telephone</label>
-							<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
-						</fieldset>
-						<fieldset class="contato">
-							<label>How do you prefer our contact?</label>
-							<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-							
-							<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telephone</label>
-							
-							<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
-						</fieldset>
-						<label class="checkbox"><input type="checkbox" checked>Would you like to receive our news by email?</label>
-
-						<input type="submit" value="Submit" class="enviar">
-				</form>
-			</main>
-	<footer>
-			<p class="copyright">&copy; Copyright The Universe - 2022</p>
-		</footer>
-	</body>
 </html>
