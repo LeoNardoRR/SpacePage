@@ -31,12 +31,7 @@ body {
 	border: 2px solid;
 	border-radius: 4px;
 	border-color: white;
-	font-family: 'Bebas Neue', cursive;
-	font-size: 25px;
-	width: 120px;
-	height: 80px;
-	margin-top: 30%;
-	margin-left: 1%;
+	transition: 1s;
 }
 
 
@@ -59,12 +54,20 @@ div{
 	position: absolute;
 }
 
-.text2{
-	position: relative;
+.container {
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 500px;
+	height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 55%;
+	margin-top: 15%;
+  }
+  
+  .text2 {
 	font-family: 'Bebas Neue', cursive;
-	color: white;
 	font-size: 30px;
-	margin-top: 3%;
 	text-align: center;
-}
-
+	color: rgb(255, 255, 255);
+  }
