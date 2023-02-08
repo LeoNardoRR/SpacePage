@@ -7,6 +7,8 @@ body {
 	font-size: 20px;
 	color: rgb(255, 255, 255);
 	font-family: 'Bebas Neue', cursive;
+	margin-left: 1%;
+
 }
 
 .button{
@@ -19,4 +21,35 @@ body {
 	font-size: 25px;
 	width: 120px;
 	height: 80px;
+	margin-top: 30%;
+	margin-left: 1%;
 }
+
+.text{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	margin-top: 22%;
+	margin-left: 1%;
+}
+
+div{
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 600px;
+	height: 180px;
+	margin-left: 47%;
+	margin-top: 17%;
+	border-radius: 10px;
+	position: absolute;
+}
+
+.text2{
+	position: relative;
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 30px;
+	margin-top: 3%;
+	text-align: center;
+}
+
