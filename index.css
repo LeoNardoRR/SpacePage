@@ -25,6 +25,21 @@ body {
 	margin-left: 1%;
 }
 
+.button:hover{
+	color: rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	border: 2px solid;
+	border-radius: 4px;
+	border-color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	width: 120px;
+	height: 80px;
+	margin-top: 30%;
+	margin-left: 1%;
+}
+
+
 .text{
 	font-family: 'Bebas Neue', cursive;
 	color: white;
