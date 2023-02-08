@@ -1,5 +1,10 @@
 # 🧑‍💻 Talking about space
 
+<h1>Website talking about space</h1>
+
+> Projecct status: Development
+
+
 <p align="left">
   <!-- License -->
   <a>
@@ -7,14 +12,12 @@
   </a>
 </p>
 
-## :open_book: About 
-It´s a page where we talk about space
+## Quick Start
+ 1. Clone this repository `git clone https://leonardorr.github.io/SpacePage/.git` 
+ 2. Enter in the project's folder: `cd index`
+ 3. Open the `index.html` file 😃
 
-## 🏄‍♂️ Quick Start
- 1. Clone this repository `git clone https://github.com/LeoNardoRR/###.git`
- 2. Enter in the project's folder: `cd ####`
- 3. Open the `Index.html` file 😃
-
-## :bricks: This project was built with: 
+## This project was built with: 
 - HTML
 - CSS
+- JAVASCRIPT
