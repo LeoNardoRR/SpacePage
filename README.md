@@ -13,10 +13,11 @@
 </p>
 
 ## Quick Start
- 1. Clone this repository `git clone https://github.com/LeoNardoRR/###.git`
- 2. Enter in the project's folder: `cd ####`
- 3. Open the `Index.html` file 😃
+ 1. Clone this repository `git clone https://leonardorr.github.io/SpacePage/.git` 
+ 2. Enter in the project's folder: `cd index`
+ 3. Open the `index.html` file 😃
 
-## :bricks: This project was built with: 
+## This project was built with: 
 - HTML
 - CSS
+- JAVASCRIPT
