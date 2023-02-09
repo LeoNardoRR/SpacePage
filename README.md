@@ -2,7 +2,7 @@
 
 <h1>Website talking about space</h1>
 
-> Projecct status: Development
+> Project status: Development
 
 
 <p align="left">
