@@ -21,8 +21,8 @@ body {
 	font-size: 25px;
 	width: 120px;
 	height: 80px;
-	margin-top: 30%;
-	margin-left: 1%;
+	margin-top: 40%;
+	margin-left: 3%;
 }
 
 .button:hover{
@@ -40,8 +40,8 @@ body {
 	color: white;
 	font-size: 30px;
 	position: absolute;
-	margin-top: 22%;
-	margin-left: 1%;
+	margin-top: 33%;
+	margin-left: 3%;
 }
 
 div{
