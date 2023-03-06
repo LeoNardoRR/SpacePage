@@ -37,3 +37,10 @@ body {
     float: right;
     background-color: rgb(24, 139, 233);
 }
+
+.imagem-produto{
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
+}
