@@ -78,7 +78,7 @@ header .navigator li a{
 }
 
 .container .text h2{
-	color: rgb(158, 158, 158);
+	color:rgb(255, 251, 0);
 	font-size: 2.5em;
 	line-height: 2.5em;
 	font-weight: 700;
@@ -90,7 +90,8 @@ header .navigator li a{
 }
 
 .container .text p{
-	color:rgb(255, 255, 255);
+	color:rgb(255, 251, 0);
+	font-size: 1.4rem;
 }
 
 .container .text a{
@@ -100,6 +101,7 @@ header .navigator li a{
 	border: solid white 2px;
 	color:rgb(255, 255, 255);
 	font-weight: 500;
+	font-size: 1.2rem;
 	text-decoration: none;
 	letter-spacing: 1px;
 	border-radius: 40px;
@@ -110,4 +112,8 @@ header .navigator li a{
 	background: rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
 	transition: 0.3s;
+}
+
+.logo{
+	filter: invert(1);
 }
