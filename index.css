@@ -3,7 +3,7 @@
 	margin: 0%;
 	padding: 0%;
 	box-sizing: border-box;
-	font-family: 'Bebas Neue', cursive;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 section{
@@ -16,6 +16,32 @@ section{
 	align-items: center;
 	justify-content: space-between;
 	overflow: hidden;
+}
+
+li{
+	position: relative;
+	border-radius: 2px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+li:hover{
+	border: solid 1px white;
+	padding: 2px;
+	text-align: center;
+	transition: 0.5s;
+	background-color: rgb(255, 255, 255);
+}
+
+a{
+	color: rgb(255, 255, 255) !important;
+	align-items: center;
+	text-align: center;
+	display: inline-block;
+}
+
+a:hover{
+	color: black !important;
 }
 
 .circle{
@@ -78,10 +104,12 @@ header .navigator li a{
 }
 
 .container .text h2{
-	color:rgb(255, 251, 0);
+	color:rgb(78, 78, 78);
 	font-size: 2.5em;
 	line-height: 2.5em;
 	font-weight: 700;
+	letter-spacing: 2px;
+	
 }
 
 .container .text h2 span{
